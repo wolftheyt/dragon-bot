@@ -8,6 +8,10 @@ client.on('ready', () => {
     console.log('Ready!');
 });
 
+client.on('ready',() => {
+	client.user.setStatus('online')
+});
+
 client.on('message', message => {
 	var content = message.content
 	var author = message.author
