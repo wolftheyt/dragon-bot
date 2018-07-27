@@ -120,6 +120,8 @@ client.on('message', message => {
 				break;
 			case 'despacito2' : channel.send('https://www.youtube.com/watch?v=W3GrSMYbkBE')
 				break;
+			case 'faceReveak' : channel:send('https://cdn.discordapp.com/attachments/454464684502810647/470980304765583370/Screenshot_20180721-133453.png')
+				break;
 		}
 	}
 	for (var i = 0;i < bannedWords.length;i++) {
