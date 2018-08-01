@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var afkIds = []
 var warnings = []
-var bannedWords = ['fuck','fag','shit','asshole','cunt','cnut','bitch','dick','d1ck','pussy','b1tch','blowjob','cock','c0ck','nigg']
+var bannedWords = ['fuck','fag','shit','asshole','cunt','cnut','bitch','dick','d1ck','pussy','b1tch','blowjob','cock','c0ck','nigg','dam']
 
 client.on('ready', () => {
     console.log('Ready!');
